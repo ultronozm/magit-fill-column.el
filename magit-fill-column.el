@@ -23,9 +23,9 @@
 
 ;;; Commentary:
 
-;; This package different projects to enforce different line lengths
-;; for commit messages by setting the `fill-column' variable based on
-;; the current Git project's remote URL.
+;; This package helps work with Git projects that have different line
+;; lengths conventions for commit messages when using Magit.  It does
+;; so by setting the `fill-column' variable appropriately.
 ;;
 ;; To use, add the following to your init file:
 ;;
